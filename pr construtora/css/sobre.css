@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+
+}
+
+body{
+ background-color: white;
+ 
+}
+
+.cabeçalho{
+    width: 100%;
+    height: 4.375em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 25px;
+    background-color: #A9A9A9;
+}
+
+.logotipo{
+    width: 60px;
+    height: 50px;
+    border-radius: 70%;
+    
+}
+
+
+.links{
+    display: flex;
+    gap: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.link{
+    color: black;
+    opacity: 0.5;
+    text-transform: capitalize;
+    font-weight: bolder;
+    transition: all 250ms ease-in-out;
+}
+
+.link:hover{
+    opacity: 1;
+}
+
+
+
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentfoto{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content{
+    width: 50%;
+    height:25em;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.fotoexemplo{
+    width: 25%;
+    height: 25em;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px #000;
+}
+
+.abaixo{
+    width: 100%;
+    height: 7.25em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #A9A9A9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
